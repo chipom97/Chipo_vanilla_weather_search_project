@@ -3,6 +3,17 @@ body {
   font-family: "Merienda", cursive;
 }
 
+/*change colour of links*/
+
+a {
+  color: blue;
+}
+
+.flex-main {
+    display: flex;
+    justify-content: space-between;
+}
+
 .weather-app {
   background-color: white;
   max-width: 800px;
@@ -13,8 +24,8 @@ body {
 }
 
 header {
-    border-bottom: 1px solid black;
-    padding:0 0 30px 0;;
+  border-bottom: 1px solid black;
+  padding: 0 0 30px 0;
 }
 
 .search-form-input {
@@ -38,11 +49,36 @@ header {
   margin-left: 5px;
 }
 
+.weather-temp-flex{
+    display: flex;
+}
+
+.weather-temp {
+    font-size: 88px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.weather-icon {
+    font-size: 44px ;
+    margin-top: 22px;
+
+}
+
+.weather-unit {
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+main {
+    padding: 30px 0;
+}
+
 footer {
-    border-top: 1px solid black;
-    /*top, right, bottom, left*/
-    padding: 30px 0 0 0;
-    text-align: center;
-    font-size: 12px;
-    color: #6250ba;
+  border-top: 1px solid black;
+  /*top, right, bottom, left*/
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 12px;
+  color: #6250ba;
 }

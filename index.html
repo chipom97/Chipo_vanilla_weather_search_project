@@ -35,17 +35,26 @@
       </header>
 
       <main>
-        <div>
-          <h1>Paris</h1>
+        <div class="flex-main">
+          <!--the main consists of two divs;
+        creating a new div around these and styling it with flexbox allows us
+        to play aroud with the spacing of the divs-->
+          <div>
+            <h1>Paris</h1>
 
-          <p>
-            Tuesday 14:50, scattered clouds
-            <br />
-            Humidity: 66%, Wind: 3.13km/h
-          </p>
+            <p>
+              Tuesday 14:50, scattered clouds
+              <br />
+              Humidity: 66%, Wind: 3.13km/h
+            </p>
+          </div>
+
+          <div class="weather-temp-flex">
+            <div class="weather-icon">🌦️</div>
+            <div class="weather-temp">12</div>
+            <div class="weather-unit">°C</div>
+          </div>
         </div>
-
-        <div>🌦️ 12°C</div>
       </main>
 
       <footer>
