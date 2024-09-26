@@ -3,42 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/styles.css">
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather App</title>
   </head>
   <body>
     <!--Divide weather app into header, body and footer-->
+    <!--A div to target just the app (the section with text)-->
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city.." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
 
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
 
-    <main>
-      <div>
-        <h1>Paris</h1>
+          <p>
+            Tuesday 14:50, scattered clouds
+            <br />
+            Humidity: 66%, Wind: 3.13km/h
+          </p>
+        </div>
 
-        <p>
-          Tuesday 14:50, scattered clouds
-          <br />
-          Humidity: 66%, Wind: 3.13km/h
-        </p>
-      </div>
+        <div>🌦️ 12°C</div>
+      </main>
 
-      <div>🌦️ 12°C</div>
-    </main>
-
-    <footer>
-      This project was coded by
-      <a target="_blank" href="https://github.com/chipom97">Chipo Mazhani</a>
-      and is open-sourced on Github, and website hosted on
-      <a
-        target="_blank"
-        href="https://chipo-vanilla-weather-project.netlify.app/"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        This project was coded by
+        <a target="_blank" href="https://github.com/chipom97">Chipo Mazhani</a>
+        and is open-sourced on Github, and website hosted on
+        <a
+          target="_blank"
+          href="https://chipo-vanilla-weather-project.netlify.app/"
+          >Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>

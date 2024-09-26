@@ -1,3 +1,13 @@
 body {
-    background-color: aquamarine;
+    background-color: #F9F7FE;
+    font-family: "Merienda", cursive;
+}
+
+.weather-app {
+    background-color: white;
+    max-width: 800px;
+    margin: 60px auto;
+    border-radius: 16px;
+    box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.08);
+    padding: 40px;
 }
