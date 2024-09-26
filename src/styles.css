@@ -1,22 +1,48 @@
 body {
-    background-color: #F9F7FE;
-    font-family: "Merienda", cursive;
+  background-color: #f9f7fe;
+  font-family: "Merienda", cursive;
 }
 
 .weather-app {
-    background-color: white;
-    max-width: 800px;
-    margin: 60px auto;
-    border-radius: 16px;
-    box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.08);
-    padding: 40px;
+  background-color: white;
+  max-width: 800px;
+  margin: 60px auto;
+  border-radius: 16px;
+  box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.08);
+  padding: 40px;
+}
+
+header {
+    border-bottom: 1px solid black;
+    padding:0 0 30px 0;;
 }
 
 .search-form-input {
-    background-color: #F9F7FE;
-    border: none;
-    border-radius: 6px;
-    width: 80%;
-    font-size: 16px;
-    padding: 15px 20px;
+  font-family: "Gloria Hallelujah", cursive;
+  background-color: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+.search-form-button {
+  font-family: "Gloria Hallelujah", cursive;
+  background-color: #6250ba;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 15px 40px;
+  color: white;
+  margin-left: 5px;
+}
+
+footer {
+    border-top: 1px solid black;
+    /*top, right, bottom, left*/
+    padding: 30px 0 0 0;
+    text-align: center;
+    font-size: 12px;
+    color: #6250ba;
 }
