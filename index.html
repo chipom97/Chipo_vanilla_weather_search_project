@@ -23,12 +23,14 @@
     <!--A div to target just the app (the section with text)-->
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             class="search-form-input"
             type="search"
             placeholder="Enter a city.."
             required
+            id="search-form-input"
+            class="search-form-input"
           />
           <input class="search-form-button" type="submit" value="Search" />
         </form>
@@ -40,9 +42,9 @@
         creating a new div around these and styling it with flexbox allows us
         to play aroud with the spacing of the divs-->
           <div>
-            <h1>Paris</h1>
+            <h1 class="weather-app-city" id="city">Paris</h1>
 
-            <p>
+            <p class="weathe-app-details">
               Tuesday 14:50, scattered clouds
               <br />
               Humidity: 66%, Wind: 3.13km/h
