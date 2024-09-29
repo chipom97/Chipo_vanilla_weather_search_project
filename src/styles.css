@@ -9,6 +9,10 @@ a {
   color: blue;
 }
 
+strong {
+  color: rgb(221, 21, 55);
+}
+
 .flex-main {
   display: flex;
   justify-content: space-between;
