@@ -16,7 +16,7 @@ function searchCity(city) {
 }
 
 function refreshWeather(response) {
-  console.log(response.data);
+  //console.log(response.data);
   let temperatureElement = document.querySelector("#temperature");
   let temperature = response.data.temperature.current;
   temperatureElement.innerHTML = Math.round(temperature);
@@ -46,6 +46,10 @@ function formatDate(date) {
     "Saturday",
   ];
   let day = days[date.getDay()];
+
+  if (minutes < 10) {
+    minutes = `0${minutes}`;
+  }
   return `${day} ${hours}:${minutes}`;
 }
 
